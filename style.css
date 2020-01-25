@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10%;
+	padding-bottom: 30%;
+	background-color: grey;
+}
+
+.heading {
+	font-size: 3rem;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.header-copy {
+	padding-bottom: 30px;
+}
+
+.feature-header {
+	text-align: center;
+	padding-top: 75px;
+}
+
+.primary-features {
+	display: flex;
+	flex-direction: row;
+	margin: 5%;
+}
+
+.primary-products {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+.primary-product-image {
+	max-width: 25%;
+}
+
+.secondary-features {
+	display: flex;
+	align-items: center;
+	margin: 0 10%;
+}
+
+.secondary-products {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 5%;
+	padding: 2%;
+	background-color: bisque;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.secondary-product-image {
+	max-width: 15%;
+}
+
+.product-button {
+	margin: 5% 0;
+	text-align: center;
+}
+
+.differences-image {
+	max-width: 15%;
+}
+
+.casper-difference {
+	padding: 5%;
+	background-color: coral;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.difference-makers {
+	display: flex;
+	padding-top: 5%;
+}
+
+.differences {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 10%;
+}
+
+.differences-copy {
+	text-align: center;
+}
+
+.benefits {
+	background-color: lemonchiffon;
+	display: flex;
+	padding: 5%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.benefit-items {
+	display: flex;
+	margin-top: 5%;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.single-benefit {
+	display: flex;
+	margin: 0 10%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.glyphicon {
+	font-size: 50px;
+}
